@@ -94,7 +94,7 @@ const Preview = () => {
           </div>
         </div>
 
-        <div className=" py-10  lg:mt-[60%] flex
+        <div className=" py-10  lg:mt-[53%] flex
          gap-5  flex-col lg:flex-row items-center ">
           <button className="border-2 bg-[#FFFFFF] px-20 lg:px-12 rounded-full text-sm 
           text-[#000000] py-4 lg:py-2 text-center font-normal m-auto">

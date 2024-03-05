@@ -26,7 +26,7 @@ const Invoice = () => {
 
         {/*  */}
 
-        <div className=" px-4 border-red-700 py-2 w-[100%] ">
+        <div className="px-2 sm:px-4 border-red-700 py-2 w-[100%] ">
           <div className=" flex justify-between gap-1 sm:gap-4">
             <div className="AddNotes w-1/2 py-2 mx-2">
               <div>
@@ -68,8 +68,8 @@ const Invoice = () => {
 
             {/* -------------- */}
 
-            <div className="SubTotal px-2 py-6  w-1/2">
-              <div className="grid grid-cols-2 gap-4">
+            <div className="SubTotal sm:px-2 py-6  w-1/2">
+              <div className="grid grid-cols-2 gap-2 sm:gap-4">
                 <div className="text-[.5rem] md:text-[.8rem]">
                   <p className="text-end font-semibold py-2">Subtotal:</p>
                   <p className="text-end  text-[#777777] py-2">
