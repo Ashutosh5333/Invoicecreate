@@ -1,8 +1,6 @@
 import React from "react";
-import { CiSearch } from "react-icons/ci";
-import { IoIosArrowDown } from "react-icons/io";
+
 import InvoicecreateCard from "./InvoicecreateCard";
-import { HiOutlineChevronDown } from "react-icons/hi";
 import { FaMicrophoneAlt } from "react-icons/fa";
 
 const Invoice = () => {
@@ -10,18 +8,16 @@ const Invoice = () => {
     <>
       <div className="rounded-lg  lg:bg-[#FFFFFF] lg:shadow-xl  py-2  border-yellow-500 ">
       
-        <div className="Temple-heading px-2 lg:px-4 py-2 text-sm flex flex-row gap-5">
+        <div className="Temple-heading px-2 lg:px-4  text-sm flex flex-row gap-5">
           <div>
             <p> Templates </p>
           </div>
           <div>
             <p className=""> Create Invoice </p>
-            <div className="border-t-2 pt-5" />
+            <div className="border-t-2 border-black" />
           </div>
         </div>
-
         {/* ================ */}
-
         <div className="border-t-2" />
 
         <div className="Invioce">
@@ -50,7 +46,7 @@ const Invoice = () => {
                   <FaMicrophoneAlt className="absolute top-1/2 left-1 transform -translate-y-1/2 h-2 w-2 sm:h-4 sm:w-4 text-gray-400 pointer-events-none" />
                 </div>
 
-                <div className="py-2">
+                <div className="lg:hidden  py-2">
                   <label
                     htmlFor="left-select"
                     className="text-start text-[.6rem] sm:text-sm text-[#777777] px-2 block mb-2"

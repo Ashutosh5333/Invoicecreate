@@ -12,7 +12,7 @@ const InvoiceCard = ({ head, data }) => {
               {head.map((header, index) => (
                 <th
                   key={index}
-                  className="px-2 sm:px-4 text-[#777777] text-[.6rem] sm:text-[.8rem] text-start py-4"
+                  className="px-2 sm:px-4 text-[#777777] text-[.6rem] sm:text-[.8rem] text-start py-2"
                 >
                   {header}
                 </th>

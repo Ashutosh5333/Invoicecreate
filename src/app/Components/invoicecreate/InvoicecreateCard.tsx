@@ -111,9 +111,9 @@ const InvoicecreateCard = () => {
               <tr className="font-semibold text-[.5rem] mt-5 sm:text-[.7rem]  px-8 py-4 ">
                 <td className="  sm:px-4 py-2">Anti wrinkle treatment</td>
                 <td className="  sm:px-4 ">$1480</td>
-                <td className="  sm:px-4 ">
+                <td className="  sm:px-4   ">
                   <button
-                    className={`text-center  m-auto bg-black text-white 
+                    className={`text-center  m-auto  bg-black text-white 
                      rounded-2xl py-2 px-6 sm:px-10 lg:px-12 lg:py-2`}
                   >
                     Add
@@ -121,7 +121,8 @@ const InvoicecreateCard = () => {
                 </td>
                 <td className="  sm:px-4 py-2 ">
                   <button
-                    className={`text-center border-2 border-[#E11D48] m-auto text-[#E11D48] 
+                    className={`text-center border-2 border-[#E11D48] m-auto
+                     text-[#E11D48] 
                      rounded-2xl py-2 px-4 sm:px-10 lg:px-12 lg:py-2`}
                   >
                     Remove

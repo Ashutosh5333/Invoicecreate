@@ -15,7 +15,6 @@ const DashboardCard = () => {
       <div className="Main-DetailContainer   border-black flex flex-col lg:flex-row">
        
         <div className="Invoice py-2 px-2 border-green-500 w-[100%] lg:w-[70%]  ">
-          {/* <DashboardList /> */}
           <Invoice/>
         </div>
 
