@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { BsPrinter } from "react-icons/bs";
 import PreviewList from "./PreviewList";
-
+import { FiEdit3 } from "react-icons/fi";
 const Preview = () => {
   return (
     <>
@@ -17,9 +17,16 @@ const Preview = () => {
             </div>
           </div>
           <div className="flex  items-center">
+          <div className="flex flex-row gap-2 text-[#4C4D4F] text-[.6rem] bg-[#F8F8F8] p-3 rounded-lg mr-2">
+              
+              <FiEdit3 className="m-auto text-2xl"/>
+            </div>
             <div className="flex flex-row gap-2 text-[#4C4D4F] text-[.6rem] bg-[#F8F8F8] p-3 rounded-lg mr-2">
               <BsPrinter className="m-auto text-2xl" />
             </div>
+
+           
+
           </div>
         </div>
 

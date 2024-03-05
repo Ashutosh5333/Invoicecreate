@@ -8,7 +8,8 @@ import InvoiceCard from "./InvoiceCard";
 
 const InvoicecreateCard = () => {
   return (
-    <div className="rounded-lg px-2   lg:shadow-xl  py-2  border-yellow-500 ">
+    <div className="rounded-lg px-2     py-2  border-yellow-500 ">
+
       <div className="flex flex-row items-center justify-center">
         <div className="w-full md:w-1/2 mx-4">
           <label
