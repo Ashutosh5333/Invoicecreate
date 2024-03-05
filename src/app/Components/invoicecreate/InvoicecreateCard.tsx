@@ -289,8 +289,6 @@ const InvoicecreateCard = () => {
           <InvoiceCard data={treatmentdata} head={tratmenthead}/>
        </div>
 
-
-
     </div>
   );
 };
