@@ -96,3 +96,39 @@ export const INVOICE_ROWS = [
     Total:"$180",
   },
 ];
+
+
+export const skincarehead= ["Skincare Items", "Rate", "Qty", "Amount" ];
+
+export const  skincaredata =[
+  {
+     title:"Vitamin A Night Serum",
+     rate:"$90",
+     qty:"1",
+     ammount:"$180"
+  },
+  {
+    title:"Vitamin A Night Serum",
+    rate:"$90",
+    qty:"1",
+    ammount:"$180"
+ }
+]
+
+
+export const tratmenthead= ["Treatment Name", "Rate", "Qty", "Amount" ];
+
+export const treatmentdata =[
+  {
+     title:"Anti wrinkle",
+     rate:"$90",
+     qty:"1",
+     ammount:"$180"
+  },
+  {
+    title:"Prohilo",
+    rate:"$90",
+    qty:"1",
+    ammount:"$180"
+ }
+]
