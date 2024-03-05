@@ -25,8 +25,6 @@ const Preview = () => {
               <BsPrinter className="m-auto text-2xl" />
             </div>
 
-           
-
           </div>
         </div>
 
@@ -91,17 +89,20 @@ const Preview = () => {
           <div className="px-4 py-4 mb-5 bg-[#F8F8F8]">
             <h2 className="text-[.9rem] "> Notes/Terms </h2>
             <p className="text-[.7rem] text-[#777777]">
-              {" "}
-              Lorem ipsum dolor sit amet. Sit eaque assumenda qui.{" "}
+              Lorem ipsum dolor sit amet. Sit eaque assumenda qui.
             </p>
           </div>
         </div>
 
-        <div className=" py-4 lg:pb-24 mt-5 flex items-center ">
-          <button className="hidden lg:block bg-black px-8 rounded-full text-base 
-          text-[#ffffff] py-4 text-center font-normal m-auto">
-            {" "}
-            Create New Invoice{" "}
+        <div className=" py-10  lg:mt-[60%] flex
+         gap-5  flex-col lg:flex-row items-center ">
+          <button className="border-2 bg-[#FFFFFF] px-20 lg:px-12 rounded-full text-sm 
+          text-[#000000] py-4 lg:py-2 text-center font-normal m-auto">
+            Save 
+          </button>
+          <button className=" bg-black px-14  lg:px-6 rounded-full text-sm 
+          text-[#ffffff] py-4 lg:py-2 text-center font-normal m-auto">
+          Save & Send
           </button>
         </div>
         

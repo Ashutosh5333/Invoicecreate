@@ -90,19 +90,20 @@ const InvoicecreateCard = () => {
 
       {/*  Card   */}
 
+      <div className=" px-4">
       <div className="border-2 hidden lg:block rounded-lg px-2 bg-[#F8F8F8] ">
         <div className=" text-[#777777] px-2 lg:px-4 py-2 text-sm flex flex-row gap-5">
           <table className="table-auto w-full  ">
             <thead className="border-b-2 ">
               <tr className="rounded-t-lg">
-                <th className="px-4  text-[#777777] text-[.8rem] text-start py-4">
+                <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
                   Treatments
                 </th>
-                <th className="px-4  text-[#777777] text-[.8rem] text-start py-4">
+                <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
                   Amount
                 </th>
-                <th className="px-4  text-[#777777] text-[.8rem] text-start py-4"></th>
-                <th className="px-4  text-[#777777] text-[.8rem] text-start py-4"></th>
+                <th className="px-4  text-[#777777] text-[.8rem] text-start py-2"></th>
+                <th className="px-4  text-[#777777] text-[.8rem] text-start py-2"></th>
               </tr>
             </thead>
 
@@ -141,16 +142,16 @@ const InvoicecreateCard = () => {
           <table className="table-auto w-full  ">
             <thead className="border-b-2 ">
               <tr className="rounded-t-lg">
-                <th className="px-4  text-[#777777] text-[.8rem] text-start py-4">
+                <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
                   Treatments
                 </th>
-                <th className="px-4  text-[#777777] text-[.8rem] text-start py-4">
+                <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
                   Rate/per section
                 </th>
-                <th className="px-4  text-[#777777] text-[.8rem] text-start py-4">
+                <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
                   no. of section
                 </th>
-                <th className="px-4  text-[#777777] text-[.8rem] text-start py-4">
+                <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
                   Total
                 </th>
               </tr>
@@ -224,7 +225,7 @@ const InvoicecreateCard = () => {
           <thead className="border-b-2">
             <tr className="rounded-t-lg">
               {skincarehead.map((header, index) => (
-                <th key={index} className="px-4 text-[#777777] text-[.8rem] text-start py-4">{header}</th>
+                <th key={index} className="px-4 text-[#777777] text-[.8rem] text-start py-2">{header}</th>
               ))}
             </tr>
           </thead>
@@ -279,6 +280,9 @@ const InvoicecreateCard = () => {
         </div>
       </div>
     </div>
+
+  </div>
+
 
        {/*  Tablet view */}
 
