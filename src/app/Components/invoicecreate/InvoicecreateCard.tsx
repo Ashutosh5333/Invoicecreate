@@ -115,13 +115,20 @@ const InvoicecreateCard = () => {
               <p className="font-semibold mt-1 text-[#000000] text-[.5rem] sm:text-[.7rem]">
                 $1480
               </p>
-              <div className="text-right mr-2 flex gap-2">
-                <button className="text-center text-[.6rem] sm:text-[.7rem] bg-black text-white rounded-2xl py-2 px-6 sm:px-10 lg:px-14 lg:py-2">
-                  Add
-                </button>
-                <button className="text-center border-2 text-[.6rem] sm:text-[.7rem] border-[#E11D48] text-[#E11D48] rounded-2xl py-2 px-4 sm:px-10 lg:px-10 lg:py-2">
-                  Remove
-                </button>
+              <div className="text-right mr-2 flex gap-5">
+              <button
+                className={`text-center  text-[.6rem] sm:text-[.8rem]  m-auto bg-black text-white 
+                     rounded-2xl py-2 px-6 sm:px-10 lg:px-14 lg:py-2`}
+              >
+                Add
+              </button>
+
+              <button
+                className={`text-center  text-[.6rem] sm:text-[.8rem] border-2 border-[#E11D48] m-auto text-[#E11D48] 
+                     rounded-2xl py-2 px-4 sm:px-10 lg:px-10 lg:py-2`}
+              >
+                Remove
+              </button>
               </div>
             </div>
           
@@ -191,7 +198,7 @@ const InvoicecreateCard = () => {
             <div className="border-t-2" />
           </div>
 
-          <div className="  py-2 gap-5 flex justify-between">
+          <div className=" px-2 py-2 gap-5 flex justify-between">
             <div></div>
             <div className="flex gap-4">
               <button
@@ -278,7 +285,7 @@ const InvoicecreateCard = () => {
             <div className="border-t-2" />
           </div>
 
-          <div className="py-2 gap-5 flex justify-between">
+          <div className="py-2 px-2 gap-5 flex justify-between">
             <div></div>
             <div className="flex gap-4">
               <button
