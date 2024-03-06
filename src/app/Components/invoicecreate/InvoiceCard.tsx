@@ -70,7 +70,7 @@ const InvoiceCard = ({ head, data }) => {
         <div className="border-t-2" />
       </div>
 
-      <div className="py-4 gap-5 flex justify-between">
+      <div className="py-4 px-4 gap-5 flex justify-between">
         <div className="flex gap-4">
           <button className="text-center m-auto bg-black text-[.9rem] text-white rounded-full py-2 px-6 sm:px-10 lg:px-14 lg:py-2">
             Add Item

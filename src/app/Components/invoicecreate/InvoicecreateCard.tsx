@@ -94,18 +94,18 @@ const InvoicecreateCard = () => {
 
       <div className=" px-4">
         <div className="border-2 hidden lg:block rounded-lg px-2 bg-[#F8F8F8] ">
-          <div className=" text-[#777777] px-2 lg:px-4 py-2 text-sm flex flex-row gap-5">
+          <div className=" text-[#777777] px-2 lg:px-4 py-1 text-sm flex flex-row gap-5">
             <table className="table-auto w-full  ">
               <thead className="border-b-2 ">
                 <tr className="rounded-t-lg">
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
+                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1">
                     Treatments
                   </th>
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
+                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1">
                     Amount
                   </th>
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-2"></th>
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-2"></th>
+                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1"></th>
+                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1"></th>
                 </tr>
               </thead>
 
@@ -116,7 +116,7 @@ const InvoicecreateCard = () => {
                   <td className="sm:px-4">
                     <div className="text-right">
                       <button
-                        className={`text-center m-auto bg-black text-white rounded-2xl py-2 px-6 sm:px-10 lg:px-12 lg:py-2`}
+                        className={`text-center m-auto text-[.6rem] sm:text-[.7rem] bg-black text-white rounded-2xl py-2 px-6 sm:px-10 lg:px-12 lg:py-2`}
                       >
                         Add
                       </button>
@@ -125,7 +125,7 @@ const InvoicecreateCard = () => {
                   <td className="sm:px-4 py-2">
                     <div className="text-right">
                       <button
-                        className={`text-center border-2 border-[#E11D48] m-auto text-[#E11D48] rounded-2xl py-2 px-4 sm:px-10 lg:px-12 lg:py-2`}
+                        className={`text-center border-2 text-[.6rem] sm:text-[.7rem] border-[#E11D48] m-auto text-[#E11D48] rounded-2xl py-2 px-4 sm:px-10 lg:px-10 lg:py-2`}
                       >
                         Remove
                       </button>
@@ -142,27 +142,27 @@ const InvoicecreateCard = () => {
         {/* ----------------- Card two------------- */}
 
         <div className="border-2 hidden lg:block mt-5 rounded-lg px-2 bg-[#F8F8F8] ">
-          <div className=" text-[#777777] px-2 lg:px-4 py-2 text-sm flex flex-row gap-5">
+          <div className=" text-[#777777] px-2 lg:px-4 py-1 text-sm flex flex-row gap-5">
             <table className="table-auto w-full  ">
               <thead className="border-b-2 ">
-                <tr className="rounded-t-lg">
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
+                <tr className="rounded-t-lg font-normal">
+                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1">
                     Treatments
                   </th>
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
+                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1">
                     Rate/per section
                   </th>
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
+                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1">
                     no. of section
                   </th>
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-2">
+                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1">
                     Total
                   </th>
                 </tr>
               </thead>
 
               <tbody className=" mt-5 text-left text-sm  text-[#000000] w-[90%] m-auto">
-                <tr className="font-semibold text-[.5rem] mt-5 sm:text-[.7rem]  px-8 py-4 ">
+                <tr className="font-semibold text-[.5rem] mt-5 sm:text-[.7rem]  px-8 py-4 lg:py-2 ">
                   <td className="text-left px-4 py-2">
                     <button
                       className={`text-left bg-[#FFFFFF] text-black 
@@ -206,15 +206,15 @@ const InvoicecreateCard = () => {
             <div></div>
             <div className="flex gap-4">
               <button
-                className={`text-center  m-auto bg-black text-white 
+                className={`text-center  text-[.6rem] sm:text-[.8rem]  m-auto bg-black text-white 
                      rounded-2xl py-2 px-6 sm:px-10 lg:px-14 lg:py-2`}
               >
                 Add
               </button>
 
               <button
-                className={`text-center border-2 border-[#E11D48] m-auto text-[#E11D48] 
-                     rounded-2xl py-2 px-4 sm:px-10 lg:px-12 lg:py-2`}
+                className={`text-center  text-[.6rem] sm:text-[.8rem] border-2 border-[#E11D48] m-auto text-[#E11D48] 
+                     rounded-2xl py-2 px-4 sm:px-10 lg:px-10 lg:py-2`}
               >
                 Remove
               </button>
@@ -224,14 +224,14 @@ const InvoicecreateCard = () => {
 
         {/* card threee */}
         <div className="border-2 hidden lg:block mt-5 rounded-lg px-2 bg-[#F8F8F8]">
-          <div className="text-[#777777] px-2 lg:px-4 py-2 text-sm flex flex-row gap-5">
+          <div className="text-[#777777] px-2 lg:px-4 py-1 text-sm flex flex-row gap-5">
             <table className="table-auto w-full">
               <thead className="border-b-2">
                 <tr className="rounded-t-lg">
                   {skincarehead.map((header, index) => (
                     <th
                       key={index}
-                      className="px-4 text-[#777777] text-[.8rem] text-start py-2"
+                      className="px-4 text-[#777777] text-[.8rem] text-start py-1"
                     >
                       {header}
                     </th>
@@ -293,13 +293,13 @@ const InvoicecreateCard = () => {
             <div></div>
             <div className="flex gap-4">
               <button
-                className={`text-center m-auto bg-black text-white rounded-2xl py-2 px-6 sm:px-10 lg:px-14 lg:py-2`}
+                className={`text-center m-auto  text-[.6rem] sm:text-[.8rem] bg-black text-white rounded-2xl py-2 px-6 sm:px-10 lg:px-14 lg:py-2`}
               >
                 Add
               </button>
 
               <button
-                className={`text-center border-2 border-[#E11D48] m-auto text-[#E11D48] rounded-2xl py-2 px-4 sm:px-10 lg:px-12 lg:py-2`}
+                className={`text-center border-2  text-[.6rem] sm:text-[.8rem] border-[#E11D48] m-auto text-[#E11D48] rounded-2xl py-2 px-4 sm:px-10 lg:px-10 lg:py-2`}
               >
                 Remove
               </button>
