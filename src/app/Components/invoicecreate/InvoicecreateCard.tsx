@@ -93,49 +93,38 @@ const InvoicecreateCard = () => {
       {/*  Card   */}
 
       <div className=" px-4">
-        <div className="border-2 hidden lg:block rounded-lg px-2 bg-[#F8F8F8] ">
-          <div className=" text-[#777777] px-2 lg:px-4 py-1 text-sm flex flex-row gap-5">
-            <table className="table-auto w-full  ">
-              <thead className="border-b-2 ">
-                <tr className="rounded-t-lg">
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1">
-                    Treatments
-                  </th>
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1">
-                    Amount
-                  </th>
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1"></th>
-                  <th className="px-4  text-[#777777] text-[.8rem] text-start py-1"></th>
-                </tr>
-              </thead>
-
-              <tbody className=" mt-5 text-left text-sm  text-[#000000] w-[90%] m-auto">
-                <tr className="font-semibold text-[.5rem] mt-5 sm:text-[.7rem] px-8 py-4">
-                  <td className="sm:px-4 py-2">Anti wrinkle treatment</td>
-                  <td className="sm:px-4">$1480</td>
-                  <td className="sm:px-4">
-                    <div className="text-right">
-                      <button
-                        className={`text-center m-auto text-[.6rem] sm:text-[.7rem] bg-black text-white rounded-2xl py-2 px-6 sm:px-10 lg:px-12 lg:py-2`}
-                      >
-                        Add
-                      </button>
-                    </div>
-                  </td>
-                  <td className="sm:px-4 py-2">
-                    <div className="text-right">
-                      <button
-                        className={`text-center border-2 text-[.6rem] sm:text-[.7rem] border-[#E11D48] m-auto text-[#E11D48] rounded-2xl py-2 px-4 sm:px-10 lg:px-10 lg:py-2`}
-                      >
-                        Remove
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
+        <div className="border hidden lg:block rounded-lg px-2 bg-[#F8F8F8]">
+          
+          <div className=" text-[#777777] px-2 lg:px-2 mt-1 text-sm flex flex-col gap-5">
+            <div className="px-6 font-semibold mt-2 border-red-700 flex justify-between gap-5">
+              <p className="px-2  text-[#777777] text-[.8rem] text-start ">
+                Treatments
+              </p>
+              <p className=" text-[#777777] text-[.8rem] text-start ">
+                Amount
+              </p>
+              <p className="px-2 text-[#777777] text-[.8rem] text-start "></p>
+              <p className="px-2 text-[#777777] text-[.8rem] text-start "></p>
+            </div>
             <div className="border-t-2" />
+
+            <div className=" pb-2  ml-10 border-red-700 flex justify-between gap-5">
+              <p className="font-semibold mt-1 text-[#000000] text-[.5rem] sm:text-[.7rem]">
+                Anti wrinkle treatment
+              </p>
+              <p className="font-semibold mt-1 text-[#000000] text-[.5rem] sm:text-[.7rem]">
+                $1480
+              </p>
+              <div className="text-right mr-2 flex gap-2">
+                <button className="text-center text-[.6rem] sm:text-[.7rem] bg-black text-white rounded-2xl py-2 px-6 sm:px-10 lg:px-14 lg:py-2">
+                  Add
+                </button>
+                <button className="text-center border-2 text-[.6rem] sm:text-[.7rem] border-[#E11D48] text-[#E11D48] rounded-2xl py-2 px-4 sm:px-10 lg:px-10 lg:py-2">
+                  Remove
+                </button>
+              </div>
+            </div>
+          
           </div>
         </div>
 

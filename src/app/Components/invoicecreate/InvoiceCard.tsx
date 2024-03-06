@@ -26,40 +26,39 @@ const InvoiceCard = ({ head, data }) => {
                 key={index}
                 className="font-semibold text-[.4rem] mt-5 sm:text-[.7rem] px-2 py-2 sm:px-8 sm:py-4"
               >
-                <td className="text-left  sm:px-4 py-2">
+                <td className="text-left sm:px-4 py-2">
                   <button
                     className={`text-left bg-[#FFFFFF] text-black rounded py-1 px-4 sm:py-2 sm:px-8 lg:px-8 lg:py-2`}
                   >
                     {item.title}
                   </button>
                 </td>
-                <td className="text-left  sm:px-4 py-2">
+                <td className="text-left sm:px-4 py-2">
                   <button
-                    className={`text-left bg-[#FFFFFF] text-black rounded py-1 px-4  sm:py-2 sm:px-8 lg:px-8 lg:py-2`}
+                    className={`text-left bg-[#FFFFFF] text-black rounded py-1 px-4 sm:py-2 sm:px-8 lg:px-8 lg:py-2`}
                   >
                     {item.rate}
                   </button>
                 </td>
                 <td className="text-left sm:px-4 py-2">
                   <button
-                    className={`text-left bg-[#FFFFFF] text-black rounded py-1 px-4  sm:py-2 sm:px-8 lg:px-8 lg:py-2`}
+                    className={`text-left bg-[#FFFFFF] text-black rounded py-1 px-4 sm:py-2 sm:px-8 lg:px-8 lg:py-2`}
                   >
                     {item.qty}
                   </button>
                 </td>
-                <td className="text-left  sm:px-4 py-2">
+                <td className="text-left sm:px-4 py-2">
                   <button
-                    className={`text-left bg-[#FFFFFF] text-black rounded py-1 px-4  sm:py-2 sm:px-8 lg:px-8 lg:py-2`}
+                    className={`text-left bg-[#FFFFFF] text-black rounded py-1 px-4 sm:py-2 sm:px-8 lg:px-8 lg:py-2`}
                   >
                     {item.ammount}
                   </button>
                 </td>
-                <td className="text-left  sm:px-4 py-2">
+                <td className="text-left sm:px-4 py-2">
                   <button
-                    className={`text-left  text-[#8B8B8B]
-                `}
+                    className={`text-left text-[#8B8B8B]`}
                   >
-                    <RxCross1 className=" m-auto  text-lg sm:text-xl" />
+                    <RxCross1 className="m-auto text-lg sm:text-xl" />
                   </button>
                 </td>
               </tr>
